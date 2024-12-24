@@ -82,8 +82,7 @@ The application workflow involves users creating invoices, managing their status
 - Functionalities to add, edit, delete, and mark invoices as paid.
 
 ### **FlowChart**
-
-![Flowchart](https://via.placeholder.com/800x400.png?text=Flowchart+Placeholder)
+![image](https://github.com/user-attachments/assets/7481efb0-62fa-4368-bbc6-13023c72f451)
 
 ---
 
