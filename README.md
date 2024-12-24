@@ -1,34 +1,179 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### **Project Name: Invoice App**
 
-## Getting Started
+The **Invoice App** is a full-stack application developed using Next.js and MongoDB. It enables users to create, manage, and update invoices seamlessly. With features like dynamic item addition, status updates, and user-friendly CRUD operations, it is an efficient solution for small to medium businesses.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### **Mission and Objectives**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### **Mission:**
+To build a robust and intuitive invoicing application that simplifies invoice management and ensures efficiency for users.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### **Objectives:**
+1. **Invoice Management:**
+   - Provide functionalities to create, edit, view, and delete invoices.
+   - Implement dynamic item addition in invoices.
 
-## Learn More
+2. **Status Tracking:**
+   - Enable status updates for invoices (e.g., Draft, Pending, Paid).
 
-To learn more about Next.js, take a look at the following resources:
+3. **User-Friendly Features:**
+   - Offer notification alerts for actions like saving changes or confirming deletions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Responsive Design:**
+   - Ensure the app is optimized for both desktop and mobile users.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. **Deployment:**
+   - Deploy the app for global accessibility using cloud platforms.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **Technology Stack**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### **Frontend**
+1. **Next.js**
+   - **Why?** Simplifies server-side rendering and static generation.
+   - **Use Case:** Handles the dynamic rendering of invoice pages.
+
+2. **Tailwind CSS**
+   - **Why?** Provides utility-first styling for responsive design.
+   - **Use Case:** Styles the UI components like buttons, modals, and forms.
+
+---
+
+#### **Backend**
+1. **Node.js**
+   - **Why?** Enables scalable backend development.
+   - **Use Case:** Manages APIs for invoice operations.
+
+2. **Express.js**
+   - **Why?** Simplifies API creation with robust routing.
+   - **Use Case:** Defines routes for CRUD operations and status updates.
+
+---
+
+#### **Database**
+1. **MongoDB**
+   - **Why?** Flexible schema design for storing invoice data.
+   - **Use Case:** Manages data for invoices, statuses, and items.
+
+---
+
+#### **Deployment**
+1. **Frontend Hosting: Vercel**
+   - **Why?** Optimized for Next.js applications.
+   - **Use Case:** Deploys the client-side application.
+
+2. **Backend Hosting: MongoDB Atlas**
+   - **Why?** Cloud-based database hosting with high availability.
+   - **Use Case:** Stores and manages the invoice data.
+
+---
+
+## **Workflow Overview**
+
+The application workflow involves users creating invoices, managing their statuses, and updating details as necessary. It features:
+- A list of invoices with status filtering.
+- Detailed invoice pages showing all related data.
+- Functionalities to add, edit, delete, and mark invoices as paid.
+
+### **FlowChart**
+
+![Flowchart](https://via.placeholder.com/800x400.png?text=Flowchart+Placeholder)
+
+---
+
+### **Project Structure for Feature Implementation**
+
+This project is structured to ensure a systematic and incremental development process. Each week builds upon the previous deliverables, enabling a smooth transition from basic to advanced functionalities.
+
+**NOTE:** Participants are encouraged to customize the design and functionality to make the application unique.
+
+---
+
+## **Week-by-Week Learning Plan**
+
+---
+
+### **Week 1: Project Setup and UI Design**
+- **Goal:** Set up the project structure and design the UI.
+- **Tasks:**
+  1. Initialize a Next.js project with Tailwind CSS.
+     - **Reading:** [Next.js Official Docs](https://nextjs.org/docs)
+     - **Video:** [Next.js Crash Course](https://www.youtube.com/watch?v=mTz0GXj8NN0)
+  2. Design the invoice list and detail pages.
+     - **Reading:** [Tailwind CSS Components](https://tailwindui.com/components)
+     - **Video:** [Tailwind CSS Crash Course](https://www.youtube.com/watch?v=dFgzHOX84xQ)
+
+- **Deliverables:**
+  - A responsive UI with placeholders for invoices.
+
+---
+
+### **Week 2: Invoice Management**
+- **Goal:** Implement CRUD operations for invoices.
+- **Tasks:**
+  1. Set up the MongoDB schema for invoices and items.
+     - **Reading:** [MongoDB Schema Design](https://mongoosejs.com/docs/guide.html)
+     - **Video:** [MongoDB Models Tutorial](https://www.youtube.com/watch?v=DZBGEVgL2eE)
+  2. Create APIs for adding, editing, viewing, and deleting invoices.
+     - **Reading:** [Express.js Routing](https://expressjs.com/en/guide/routing.html)
+     - **Video:** [RESTful APIs with Node.js](https://www.youtube.com/watch?v=pKd0Rpw7O48)
+
+- **Deliverables:**
+  - Functional invoice management system.
+
+---
+
+### **Week 3: Status Tracking and Notifications**
+- **Goal:** Enable status updates and implement user notifications.
+- **Tasks:**
+  1. Add functionality to update invoice statuses dynamically.
+     - **Reading:** [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction)
+     - **Video:** [Building API Routes in Next.js](https://www.youtube.com/watch?v=lATafp15HWA)
+  2. Implement notifications for actions like saving changes and deleting invoices.
+     - **Reading:** [Toast Notifications with Tailwind](https://tailwindcomponents.com/component/toast-notification)
+     - **Video:** [React Toast Notifications](https://www.youtube.com/watch?v=VZ9Bcfz4Dyw)
+
+- **Deliverables:**
+  - Invoice status management and user notifications.
+
+---
+
+### **Week 4: Deployment and Optimization**
+- **Goal:** Deploy the app and ensure it’s production-ready.
+- **Tasks:**
+  1. Deploy the frontend on Vercel.
+     - **Reading:** [Vercel Deployment Guide](https://vercel.com/docs)
+     - **Video:** [Deploying Next.js Apps](https://www.youtube.com/watch?v=EKq2Z3fP3c4)
+  2. Host the backend on MongoDB Atlas.
+     - **Reading:** [MongoDB Atlas Documentation](https://www.mongodb.com/atlas/database)
+     - **Video:** [Setting Up MongoDB Atlas](https://www.youtube.com/watch?v=rPqRyYJmx2g)
+
+- **Deliverables:**
+  - Fully deployed and functional Invoice App accessible via a public URL.
+
+---
+### Screenshots
+![Screenshot (411)](https://github.com/user-attachments/assets/acd5a6af-7efa-44e7-ad6d-b12afe3615cf)
+![Screenshot (412)](https://github.com/user-attachments/assets/3c48695a-afb7-43e3-8894-e13b1fe1db67)
+![Screenshot (413)](https://github.com/user-attachments/assets/aa51e262-b7bc-4530-88d5-32cc9940d5a0)
+![Screenshot (414)](https://github.com/user-attachments/assets/bba957b1-0b38-44f6-89e9-31e07235547e)
+![Screenshot (415)](https://github.com/user-attachments/assets/75905d60-3eb5-4d55-b2e8-70cd9d73b0d2)
+![Screenshot (416)](https://github.com/user-attachments/assets/8665a6f0-6588-4d58-9e02-5c2de83e6489)
+![Screenshot (410)](https://github.com/user-attachments/assets/ec04391f-f2de-4ffc-8e37-97f94b0a1479)
+
+---
+
+### **References**
+1. [Next.js Documentation](https://nextjs.org/docs)
+2. [MongoDB Documentation](https://www.mongodb.com/docs)
+3. [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+4. [Express.js Documentation](https://expressjs.com/)
+5. [Vercel Documentation](https://vercel.com/docs)
+6. https://www.youtube.com/watch?v=hNczF4zcu2Q
+7. https://github.com/devmuhib/Invoice-application
