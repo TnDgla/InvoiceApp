@@ -132,11 +132,11 @@ This project is structured to ensure a systematic and incremental development pr
 - **Goal:** Enable status updates and implement user notifications.
 - **Tasks:**
   1. Add functionality to update invoice statuses dynamically.
-     - **Reading:** [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction)
-     - **Video:** [Building API Routes in Next.js](https://www.youtube.com/watch?v=lATafp15HWA)
+     - **Reading:** [Next.js API Routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes)
+     - **Video:** [Building API Routes in Next.js](https://www.youtube.com/watch?v=gEB3ckYeZF4)
   2. Implement notifications for actions like saving changes and deleting invoices.
      - **Reading:** [Toast Notifications with Tailwind](https://tailwindcomponents.com/component/toast-notification)
-     - **Video:** [React Toast Notifications](https://www.youtube.com/watch?v=VZ9Bcfz4Dyw)
+     - **Video:** [React Toast Notifications](https://www.youtube.com/watch?v=B8AW-khsF9E)
 
 - **Deliverables:**
   - Invoice status management and user notifications.
