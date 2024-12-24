@@ -148,10 +148,10 @@ This project is structured to ensure a systematic and incremental development pr
 - **Tasks:**
   1. Deploy the frontend on Vercel.
      - **Reading:** [Vercel Deployment Guide](https://vercel.com/docs)
-     - **Video:** [Deploying Next.js Apps](https://www.youtube.com/watch?v=EKq2Z3fP3c4)
+     - **Video:** [Deploying Next.js Apps](https://www.youtube.com/watch?v=2HBIzEx6IZA&t=10s)
   2. Host the backend on MongoDB Atlas.
      - **Reading:** [MongoDB Atlas Documentation](https://www.mongodb.com/atlas/database)
-     - **Video:** [Setting Up MongoDB Atlas](https://www.youtube.com/watch?v=rPqRyYJmx2g)
+     - **Video:** [Setting Up MongoDB Atlas](https://www.youtube.com/watch?v=VkXvVOb99g0)
 
 - **Deliverables:**
   - Fully deployed and functional Invoice App accessible via a public URL.
